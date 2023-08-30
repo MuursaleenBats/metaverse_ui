@@ -68,8 +68,8 @@ export const textContainer = {
   },
   show: (i = 1) => ({
     opacity: 1,
-    transition: { staggerChildren: 0.1, delayChildren: i * 0.1 },
-  }),
+    transition: { staggerChildren: 0.1, delayChildren: i * 0.1},
+  }), 
 };
 
 export const textVariant2 = {
