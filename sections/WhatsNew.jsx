@@ -26,11 +26,12 @@ const WhatsNew = () => (
           title={<>What's new about metaverse</>}
         />
         <div
-        className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]"
+        className="mt-[48px] flex flex-wrap justify-between gap-[24px]" 
       >
         {newFeatures.map((feature, index) => (
           <NewFeatures 
-            
+            key = {feature.title}
+            {...feature}
           />
         ))}
       </div>
